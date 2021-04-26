@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee;
+  font-family: Roboto;
+}
+.container {
+  background-color: aqua;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.img1 {
+  float: left;
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 20px;
+}
+.name1 {
+  float: left;
+  padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+.header-contact {
+  float: right;
+  padding-top: 50px;
+}
+
+.header-contact p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.header-contact p a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+
+.clear-div {
+  clear: both;
+}
+hr {
+  border: 3px solid black;
+  margin: 10px auto;
+  border-bottom: none;
+}
+
+.left-div {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding-top: 25px;
+}
+.right-div {
+  float: left;
+  width: 70%;
+}
+
+.common-hr {
+  border: 3px solid black;
+  margin: 20px auto;
+  border-bottom: none;
+}
+.work-title {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding-top: 60px;
+}
+.study-complete {
+  float: left;
+  width: 69%;
+  margin: 0 auto;
+}
+.skill-title {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.skill-details {
+  float: left;
+  width: 70%;
+  margin: 0 auto;
+}
+.other-title {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.others-information {
+  float: left;
+  width: 70%;
+}
+.others-information p {
+  text-align: left;
+  font-weight: bold;
+}
+
+.footer-area {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  padding: 20px;
+}
+.footer-area a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer-area p {
+  padding: 15px;
+}
